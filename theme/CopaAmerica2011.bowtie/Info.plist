@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BTThemeName</key>
+	<string>Copa America 2011</string>
+	<key>BTThemeArtist</key>
+	<string>Abram Brinez</string>
+	<key>BTArtistURL</key>
+	<string>http://4bram.com</string>
+	<key>BTThemeIdentifier</key>
+	<string>com.abram.copaAmerica</string>
+	<key>BTThemeVersion</key>
+	<string>1.0</string>
+	<key>BTMainFile</key>
+	<string>copa.html</string>
+	<key>BTThemePreviewImage</key>
+	<string>preview.png</string>
+	<key>BTWindowWidth</key>
+	<integer>9999</integer>
+	<key>BTWindowHeight</key>
+	<integer>40</integer>
+	<key>BTWindowMode</key>
+	<string>top</string>
+	<key>BTStatusFunction</key>
+	<string>pollingUpdate</string>
+	<key>BTTrackFunction</key>
+	<string>trackChanged</string>
+</dict>
+</plist>

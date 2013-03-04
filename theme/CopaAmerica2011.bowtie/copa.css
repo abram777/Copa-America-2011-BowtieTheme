@@ -1,0 +1,87 @@
+.container {
+  color: #484949;
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.container span {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+#artist,
+#song {
+  float: none;
+}
+
+#min, 
+#sec { 
+  float: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+#min:after { 
+  content: ":";
+  margin: 0;
+  padding: 0 0 0 3px;
+}
+
+.container .score-wrapper span {
+  line-height: 1.8;
+}
+
+.container .score-wrapper {
+  background: #149FD6;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#179ada), color-stop(100%,#1e758d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #179ada 0%,#1e758d 100%); /* Chrome10+,Safari5.1+ */
+  border-radius: 0 0 25px 25px;
+  z-index: 99;
+}
+
+.container .score {
+  background: #CACFCB;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdd2d1), color-stop(100%,#8a8f8d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cdd2d1 0%,#8a8f8d 100%); /* Chrome10+,Safari5.1+ */
+  border-radius: 0 0 25px 25px;
+  text-transform: uppercase;
+  margin: 0 10px 0;
+  padding: 0 20px 0;
+}
+
+.container .score span.numbers {
+  font-size: 18px;
+  float:none;
+}
+
+.container .minutes-wrapper,
+.container .time-wrapper {
+  background: #484949;
+  -webkit-transform: skew(-30deg, 0deg);
+  transform: skew(-30deg, 0deg);
+  margin: 5px 0 0 -24px;
+  line-height: 0;
+  z-index: 0;
+}
+
+.container .time-wrapper {
+  background: #149FD6;
+  margin: 5px -2px 0;
+}
+
+.container .minutes {  
+  color: #DCC126;
+  padding: 9px 10px 13px 26px;  
+  -webkit-transform: skew(30deg, 0deg);
+  transform: skew(30deg, 0deg);
+  z-index: 0;
+}
+
+.container .time {
+  color: #DCC126;
+  -webkit-transform: skew(30deg, 0deg);
+  transform: skew(30deg, 0deg);
+  padding: 14px 6px 13px 5px;
+}
